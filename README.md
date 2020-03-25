@@ -25,11 +25,11 @@
 
 Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-## Tools
-express
-nodemon
-hub CLI
-knexjs - db.sqlite
+## Tools used
+- express
+- nodemon
+- hub CLI
+- knexjs - db.sqlite
 
 
 ## :memo: Licença
