@@ -5,10 +5,10 @@ exports.up = function(knex) {
     table.string('email').notNullable();
     table.string('whatsapp').notNullable();
     table.string('city').notNullable();
-    table.string('uf').notNullable();    
+    table.string('postal_cod', 8).notNullable();    
   });  
 };
 
 exports.down = function(knex) {
-  knex.schema.dropTable('ongs');  
+  return knex.schema.dropTable('ongs');  
 };
