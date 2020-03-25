@@ -1,5 +1,6 @@
-
-
+<h1 align="center">
+    <img alt="GoStack" src="https://github.com/jonaspereirar/BE_THE_HERO/blob/master/BE%20THE%20HERO.png" width="200px" />
+</h1>
 -Adicionar Nodemon
 -Adicionar ao GitHub
 -Funcionalidades
