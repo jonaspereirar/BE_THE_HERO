@@ -1,7 +1,35 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { FiLogIn } from 'react-icons/fi';
 
-import './styles.css'
+import './styles.css';
 
-export default function Register() {
-  return <h1>Register</h1>
+import logoImg from '../../assets/logo.svg'
+import heroesImg from '../../assets/heroes.png'
+
+export default function Logon() {
+  return (
+    <div className="logon-container">
+      <section className="form">
+        <img src={logoImg} alt="Be The Hero" />
+
+        <form>
+
+          <input placeholder="Nome da ONG"/>
+            <input placeholder="email"/>
+            <input placeholder="Whadsapp"/>
+            <input placeholder="cidade"/>
+            <input placeholder="código Postal"/>
+          <button className="button" type="submit">Efetuar Inscrição</button>
+
+          <Link to="/register">
+            <FiLogIn size={16} color="#E02041" />
+
+
+          </Link>
+        </form>      
+      </section>
+
+    </div>
+  )
 }
