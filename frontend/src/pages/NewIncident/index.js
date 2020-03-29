@@ -29,7 +29,7 @@ export default function NewIncident() {
 
           <div className="input-group">
             <input placeholder='Cidade'/>
-            <input placeholder='UF' style={{ width: 80 }} />
+            <input placeholder='C.Postal' style={{ width: 130 }} />
           </div>
 
           <button type='submit' className="button">Cadastrar</button>
