@@ -34,10 +34,11 @@ export default function Profile() {
           Authorization: ongId,
         }
       })
-
-      setIncidents(incidents.filter(incident => incident.id !== id))
+        //delete Incident
+        setIncidents(incidents.filter(incident => incident.id !== id))
+        
     } catch (err) {
-      alert('Erro ao deletar caso, tente novamente!')
+      alert('Erro ao deletar, tente novamente!')
     }
   } 
 
@@ -73,10 +74,10 @@ export default function Profile() {
             <strong>VALOR:</strong>
             <p>{Intl.NumberFormat('pt', { style: 'currency', currency: 'eur' }).format(incident.value)}</p>
 
-            <button 
-              type='button'
-              onClick={() => {handleDeleteIncident(incident.id)}}
-            >
+              <button 
+                type='button'
+                onClick={() => {handleDeleteIncident(incident.id)}}
+              >
               <FiTrash2 size={20} color='#A8A8B3' />
             </button>
           </li>
