@@ -36,7 +36,7 @@ export default function Profile() {
       })
         //delete Incident
         setIncidents(incidents.filter(incident => incident.id !== id))
-        
+
     } catch (err) {
       alert('Erro ao deletar, tente novamente!')
     }
@@ -55,7 +55,7 @@ export default function Profile() {
         <span> Bem vindo(a), {ongName} </span>
 
         <Link className='button' to='/incidents/new'> Cadastrar novo caso  </Link> 
-        <button type='button'>
+        <button onClick={handleLogout} type='button'>
           <FiPower size={18} color='#E02041' />
         </button>
       </header>
