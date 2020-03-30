@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="GoStack" src="https://github.com/jonaspereirar/BE_THE_HERO/blob/master/BE%20THE%20HERO.png" width="800px" />
+    <img alt="GoStack" src="https://github.com/jonaspereirar/BE_THE_HERO/blob/master/BE_THE_HERO.png?raw=true" width="800px" />
 </h1>
 <p align="center">Código da Semana OmniStack 11.0 🎓</p>
 
